@@ -23,23 +23,28 @@ santaR Graphical User Interface (GUI) implements all the functions for short asy
 \pkg{santaR}'s command line procedure is the most efficient approach for very high number of variables due to the added level of automation. However the GUI can help understand the use of the methodology, select the best parameters on a subset of the data, or to visually explore the results.
 }
 \examples{
-\donttest{
+\dontrun{
 ## Start graphical interface, press 'ESC' in the command line to stop.
 santaR_start_GUI()
 }
 
 }
 \seealso{
-Other AutoProcess: \code{\link{santaR_auto_fit}},
-  \code{\link{santaR_auto_summary}},
-  \code{\link{santaR_plot}}
+Other AutoProcess: 
+\code{\link{santaR_auto_fit}()},
+\code{\link{santaR_auto_summary}()},
+\code{\link{santaR_plot}()}
 
-Other Analysis: \code{\link{get_grouping}},
-  \code{\link{get_ind_time_matrix}},
-  \code{\link{santaR_CBand}},
-  \code{\link{santaR_auto_fit}},
-  \code{\link{santaR_auto_summary}},
-  \code{\link{santaR_fit}}, \code{\link{santaR_plot}},
-  \code{\link{santaR_pvalue_dist}},
-  \code{\link{santaR_pvalue_fit}}
+Other Analysis: 
+\code{\link{get_grouping}()},
+\code{\link{get_ind_time_matrix}()},
+\code{\link{santaR_CBand}()},
+\code{\link{santaR_auto_fit}()},
+\code{\link{santaR_auto_summary}()},
+\code{\link{santaR_fit}()},
+\code{\link{santaR_plot}()},
+\code{\link{santaR_pvalue_dist}()},
+\code{\link{santaR_pvalue_fit}()}
 }
+\concept{Analysis}
+\concept{AutoProcess}

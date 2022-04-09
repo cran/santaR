@@ -5,7 +5,6 @@
 \alias{santaR}
 \alias{_PACKAGE}
 \alias{SANTAR}
-\alias{santaR-package}
 \title{santaR: A package for Short AsyNchronous Time-series Analysis in R}
 \description{
 \pkg{santaR} provides a graphical and automated pipeline for the analysis of short time-series studies.
@@ -21,12 +20,13 @@ interface and command line tutorials.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/adwolfer}
+  \item \url{https://github.com/adwolfer/santaR}
+  \item Report bugs at \url{https://github.com/adwolfer/santaR/issues/new}
 }
 
 }
 \author{
-\strong{Maintainer}: Arnaud Wolfer \email{adwolfer@gmail.com}
+\strong{Maintainer}: Arnaud Wolfer \email{adwolfer@gmail.com} (\href{https://orcid.org/0000-0001-5856-3218}{ORCID})
 
 Other contributors:
 \itemize{

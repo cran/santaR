@@ -102,7 +102,7 @@ get_ind_time_matrix       <- function(Yi,ind,time,orderVect) {
 #'
 #' @export
 get_grouping              <- function(ind,group) {
-  grouping            <- data.frame( matrix(nrow=length(unique(ind)), ncol=2, byrow=FALSE, data=c(unique(ind), group[match(unique(ind),ind)]) ))
+  grouping            <- data.frame( matrix(nrow=length(unique(ind)), ncol=2, byrow=FALSE, data=c(unique(ind), group[match(unique(ind),ind)]) ), stringsAsFactors=FALSE)
   colnames(grouping)  <- c('ind','group')
   return(grouping)
 }
@@ -118,7 +118,7 @@ get_grouping              <- function(ind,group) {
 #' @return Matrix of measurements UV-scaled columnwise.
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' inputMat <- data.frame(matrix(c(1,4,7, 8,4,0, 3,6,9), nrow=3))
 #' scaling_UV(inputMat)
 #' #       X1 X2 X3
@@ -145,7 +145,7 @@ scaling_UV                <- function(inputMat) {
 #' @return Matrix of measurements mean-scaled columnwise.
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' inputMat <- data.frame(matrix(c(1,4,7, 8,4,0, 3,6,9), nrow=3))
 #' scaling_mean(inputMat)
 #' #          X1 X2  X3

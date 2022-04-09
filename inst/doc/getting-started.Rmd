@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with the santaR package"
 author: "Arnaud Wolfer"
-date: "2017-12-30"
+date: "2019-10-03"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Getting Started with the santaR package}
@@ -13,16 +13,9 @@ Interactive package for _Short AsyNchronous Time-series Analysis_ (SANTA), imple
 
 ## Installation
 
-Install the development version of the package directly from GitHub with:
+Install the package from CRAN with:
 ```{r, eval = FALSE}
-# Install devtools
-if(!require("devtools")) install.packages("devtools")
-devtools::install_github("adwolfer/santaR")
-```
-
-If the dependency `pcaMethods` is not successfully installed, `Bioconductor` must be added to the default repositories with:
-```{r, eval = FALSE}
-setRepositories(ind=1:2)
+install.packages("santaR")
 ```
 
 ## Overview

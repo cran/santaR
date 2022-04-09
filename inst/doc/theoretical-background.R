@@ -1,4 +1,4 @@
-## ---- fig.width=7--------------------------------------------------------
+## ---- fig.width=7-------------------------------------------------------------
 library(ggplot2)
 library(gridExtra)
 library(grid)
@@ -51,7 +51,7 @@ p3 <- p3 + xlab(expression(atop(lambda*' = 0', paste('DF = N'))))
 
 grid.arrange(p0,p1,p2,p3, ncol=4)
 
-## ---- fig.width=7, echo=FALSE--------------------------------------------
+## ---- fig.width=7, echo=FALSE-------------------------------------------------
 library(ggplot2)
 library(gridExtra)
 library(grid)
