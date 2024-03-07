@@ -1,8 +1,7 @@
 
 # santaR
 [![R-CMD-check](https://github.com/adwolfer/santaR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/adwolfer/santaR/actions/workflows/R-CMD-check.yaml)
-[![R-CMD-check-devel](https://github.com/adwolfer/santaR/actions/workflows/R-CMD-check-devel.yaml/badge.svg)](https://github.com/adwolfer/santaR/actions/workflows/R-CMD-check-devel.yaml)
-[![codecov](https://codecov.io/gh/adwolfer/santaR/branch/master/graph/badge.svg)](https://codecov.io/gh/adwolfer/santaR/branch/master)
+[![codecov](https://codecov.io/gh/adwolfer/santaR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/adwolfer/santaR/branch/master)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/santaR)](https://cran.r-project.org/package=santaR)
 
 Interactive package for *Short AsyNchronous Time-series Analysis*
@@ -188,4 +187,4 @@ As a summary, the GPLv3 license requires attribution, inclusion of
 copyright and license information, disclosure of source code and
 changes. Derivative work must be available under the same terms.
 
-© Arnaud Wolfer (2022)
+© Arnaud Wolfer (2024)

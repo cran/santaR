@@ -1,7 +1,7 @@
-## ---- out.width = "700px", echo = FALSE---------------------------------------
+## ----out.width = "700px", echo = FALSE----------------------------------------
 knitr::include_graphics("../man/figures/santaR-eigenspline.png")
 
-## ---- fig.width=7, fig.height=7-----------------------------------------------
+## ----fig.width=7, fig.height=7------------------------------------------------
 ## ----------------------------------------------------
 ## 2 levels of resolution
 ## ----------------------------------------------------
@@ -60,6 +60,6 @@ p2      <- p2 + xlab('Time') + ylab('Variable response')
 
 grid.arrange(p0,p2, ncol=1)
 
-## ---- out.width = "500px", echo = FALSE---------------------------------------
+## ----out.width = "500px", echo = FALSE----------------------------------------
 knitr::include_graphics("../man/figures/santaR-complexity_and_sampling.png")
 
